@@ -11,20 +11,25 @@ function changeColor1() {
     //console.log("clicked")
     outputTxt.innerHTML = `<p>${txtInput.value}</p>`
     outputTxt.style.color = "red"
+    txtInput.style.color = "red"
 }
 
 redBtn.addEventListener('click', changeColor1)
 
 function changeColor2() {
     //console.log("clicked")
+    outputTxt.innerHTML = `<p>${txtInput.value}</p>`
     outputTxt.style.color = "green"
+    txtInput.style.color = "green"
 }
 
 greenBtn.addEventListener('click', changeColor2)
 
 function changeColor3() {
     //console.log("clicked")
+    outputTxt.innerHTML = `<p>${txtInput.value}</p>`
     outputTxt.style.color = "blue"
+    txtInput.style.color = "blue"
 }
 
 blueBtn.addEventListener('click', changeColor3)
